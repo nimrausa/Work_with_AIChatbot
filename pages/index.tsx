@@ -29,7 +29,7 @@ export default function Home() {
   }>({
     messages: [
       {
-        message: 'Salam, ask me any question on Islam.',
+        message: 'I am here to provide you with accurate and helpful information. Simply type your questions or select a topic, and I ll guide you through the information you seek. Let&apos;s explore together and empower you as a Muslim consumer and entrepreneur!',
         type: 'apiMessage',
       },
     ],
@@ -169,18 +169,28 @@ export default function Home() {
           <div className=' px-6 py-4 '>
 
           <h1 className='text-lg md:text-2xl font-semibold text-black dark:text-white'>
-            Welcome to Islamicly
+          👋 Assalamu Alaikum! Welcome to AMCC's AI Chatbot
           </h1>
           <p className='mt-2 text-sm md:text-lg text-gray-700 dark:text-gray-400 pt-3'> 
-            Islamicly is a GPT powered chatbot that refers to Islamic sources to answer your questions.
+            I'm here to assist you with a wide range of information and resources tailored to your interests as a Muslim consumer. Whether you're looking for modest fashion tips, exploring halal goods, diving into the world of Islamic finance, planning your next travel adventure, or more, I'm here to help! Feel free to ask any questions or select a topic below to get started:
+
+
             <br />
             <br />
-            Please note, that this chatbot should not be used for fatwa purposes. It is only a reference tool.
-            It&apos;s strengths are retrieving the appropriate sources to answer your questions. Please, always
-            double check it&apos;s answer, by reviewing the sources it provides.
-            <br />
-            <br />
-            Thank you, and I hope you benefit from using this tool.
+            <ul>
+           <li> ✨ Modest Fashion: Discover the latest trends, styling advice, and tips on modest fashion that align with your faith and values.</li>
+
+<li>🍽️ Halal Goods: Explore a variety of halal-certified products, from delicious foods to lifestyle essentials, ensuring you make choices that resonate with your beliefs.</li>
+
+<li>💰 Islamic Finance: Get insights into ethical and sharia-compliant financial practices, investment opportunities, and ways to manage your finances while staying true to your faith.</li>
+
+<li>✈️ Traveling: Plan your next adventure with recommendations for Muslim-friendly travel destinations, accommodations, and tips to ensure a seamless and enjoyable journey.</li>
+
+<li>🌐 And More: Feel free to ask me anything else you'd like to know about the American Muslim consumer market, entrepreneurship, community initiatives, and beyond!</li>
+
+ </ul>
+       
+           
           </p>
 
           <div className="pt-2 sm:px-6 sm:flex flex flex-col justify-between">

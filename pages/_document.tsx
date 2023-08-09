@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Islamicly</title>
+        <title>Salam.AI</title>
       </Head>
       <body>
         <Main />
